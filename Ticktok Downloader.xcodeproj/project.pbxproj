@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570405E629A120B4006E2A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570405E529A120B4006E2A7B /* AppDelegate.swift */; };
+		570405EA29A120B4006E2A7B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570405E929A120B4006E2A7B /* HomeVC.swift */; };
+		570405ED29A120B4006E2A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570405EB29A120B4006E2A7B /* Main.storyboard */; };
+		570405EF29A120B7006E2A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570405EE29A120B7006E2A7B /* Assets.xcassets */; };
+		570405F229A120B7006E2A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570405F029A120B7006E2A7B /* LaunchScreen.storyboard */; };
+		570405FA29A120D7006E2A7B /* DownlodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570405F929A120D7006E2A7B /* DownlodManager.swift */; };
+		570405FC29A38490006E2A7B /* Globels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570405FB29A38490006E2A7B /* Globels.swift */; };
+		5704060029A3899C006E2A7B /* TicktokDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570405FF29A3899C006E2A7B /* TicktokDetailVC.swift */; };
+		5704060629A38A79006E2A7B /* AFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704060529A38A79006E2A7B /* AFManager.swift */; };
+		5704060929A38AF3006E2A7B /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704060829A38AF3006E2A7B /* ErrorModel.swift */; };
+		5704060B29A38C6D006E2A7B /* TicktokDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704060A29A38C6D006E2A7B /* TicktokDetailModel.swift */; };
+		5704060D29A38E18006E2A7B /* TicktokDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704060C29A38E18006E2A7B /* TicktokDetailVM.swift */; };
+		5704060F29A38E5A006E2A7B /* CommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704060E29A38E5A006E2A7B /* CommonModel.swift */; };
+		5704061229A38E92006E2A7B /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704061129A38E92006E2A7B /* BaseVM.swift */; };
+		5704061429A38EE5006E2A7B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704061329A38EE5006E2A7B /* BaseVC.swift */; };
+		5704061629A39336006E2A7B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704061529A39336006E2A7B /* Enums.swift */; };
+		5704061829A39439006E2A7B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704061729A39439006E2A7B /* Extensions.swift */; };
+		5704061A29A39E90006E2A7B /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704061929A39E90006E2A7B /* Handlers.swift */; };
+		5704061D29A3A9A9006E2A7B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704061C29A3A9A9006E2A7B /* CardView.swift */; };
+		5704061F29A3B411006E2A7B /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704061E29A3B411006E2A7B /* AlertManager.swift */; };
+		57B805FD29AB8139001634EC /* DownloadHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B805FC29AB8139001634EC /* DownloadHistoryVC.swift */; };
+		5AED1858AE778E3A6EF21B9B /* Pods_Ticktok_Downloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9F1D929C70312686DC6B9F /* Pods_Ticktok_Downloader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C1B080E828D76DC451F9C0E /* Pods-Ticktok Downloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticktok Downloader.release.xcconfig"; path = "Target Support Files/Pods-Ticktok Downloader/Pods-Ticktok Downloader.release.xcconfig"; sourceTree = "<group>"; };
+		570405E229A120B4006E2A7B /* Ticktok Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ticktok Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570405E529A120B4006E2A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		570405E929A120B4006E2A7B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		570405EC29A120B4006E2A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		570405EE29A120B7006E2A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		570405F129A120B7006E2A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		570405F329A120B7006E2A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570405F929A120D7006E2A7B /* DownlodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownlodManager.swift; sourceTree = "<group>"; };
+		570405FB29A38490006E2A7B /* Globels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globels.swift; sourceTree = "<group>"; };
+		570405FF29A3899C006E2A7B /* TicktokDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicktokDetailVC.swift; sourceTree = "<group>"; };
+		5704060529A38A79006E2A7B /* AFManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFManager.swift; sourceTree = "<group>"; };
+		5704060829A38AF3006E2A7B /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		5704060A29A38C6D006E2A7B /* TicktokDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicktokDetailModel.swift; sourceTree = "<group>"; };
+		5704060C29A38E18006E2A7B /* TicktokDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicktokDetailVM.swift; sourceTree = "<group>"; };
+		5704060E29A38E5A006E2A7B /* CommonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonModel.swift; sourceTree = "<group>"; };
+		5704061129A38E92006E2A7B /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		5704061329A38EE5006E2A7B /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		5704061529A39336006E2A7B /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		5704061729A39439006E2A7B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5704061929A39E90006E2A7B /* Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handlers.swift; sourceTree = "<group>"; };
+		5704061C29A3A9A9006E2A7B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5704061E29A3B411006E2A7B /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		57B805FC29AB8139001634EC /* DownloadHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHistoryVC.swift; sourceTree = "<group>"; };
+		7A9F1D929C70312686DC6B9F /* Pods_Ticktok_Downloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ticktok_Downloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E271D2D8376B10162A107D /* Pods-Ticktok Downloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticktok Downloader.debug.xcconfig"; path = "Target Support Files/Pods-Ticktok Downloader/Pods-Ticktok Downloader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570405DF29A120B4006E2A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AED1858AE778E3A6EF21B9B /* Pods_Ticktok_Downloader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03064272428C2086FEAB067D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9F1D929C70312686DC6B9F /* Pods_Ticktok_Downloader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		570405D929A120B4006E2A7B = {
+			isa = PBXGroup;
+			children = (
+				570405E429A120B4006E2A7B /* Ticktok Downloader */,
+				570405E329A120B4006E2A7B /* Products */,
+				E05A81938BE250364DFDAC90 /* Pods */,
+				03064272428C2086FEAB067D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		570405E329A120B4006E2A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570405E229A120B4006E2A7B /* Ticktok Downloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570405E429A120B4006E2A7B /* Ticktok Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				5704060729A38AD9006E2A7B /* Models */,
+				570405FD29A388BB006E2A7B /* Views */,
+				570405FE29A388E7006E2A7B /* Helper */,
+				570405EE29A120B7006E2A7B /* Assets.xcassets */,
+				570405F029A120B7006E2A7B /* LaunchScreen.storyboard */,
+				570405E529A120B4006E2A7B /* AppDelegate.swift */,
+				570405F329A120B7006E2A7B /* Info.plist */,
+			);
+			path = "Ticktok Downloader";
+			sourceTree = "<group>";
+		};
+		570405FD29A388BB006E2A7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5704061B29A3A99A006E2A7B /* Custom */,
+				5704061029A38E7D006E2A7B /* Base */,
+				5704060129A389CB006E2A7B /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		570405FE29A388E7006E2A7B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5704061E29A3B411006E2A7B /* AlertManager.swift */,
+				5704060529A38A79006E2A7B /* AFManager.swift */,
+				570405F929A120D7006E2A7B /* DownlodManager.swift */,
+				570405FB29A38490006E2A7B /* Globels.swift */,
+				5704061529A39336006E2A7B /* Enums.swift */,
+				5704061729A39439006E2A7B /* Extensions.swift */,
+				5704061929A39E90006E2A7B /* Handlers.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5704060129A389CB006E2A7B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				570405EB29A120B4006E2A7B /* Main.storyboard */,
+				5704060229A389DE006E2A7B /* Home */,
+				5704060329A389F8006E2A7B /* Detail */,
+				57B805FC29AB8139001634EC /* DownloadHistoryVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5704060229A389DE006E2A7B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				570405E929A120B4006E2A7B /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5704060329A389F8006E2A7B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				570405FF29A3899C006E2A7B /* TicktokDetailVC.swift */,
+				5704060C29A38E18006E2A7B /* TicktokDetailVM.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5704060729A38AD9006E2A7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5704060E29A38E5A006E2A7B /* CommonModel.swift */,
+				5704060829A38AF3006E2A7B /* ErrorModel.swift */,
+				5704060A29A38C6D006E2A7B /* TicktokDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5704061029A38E7D006E2A7B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5704061129A38E92006E2A7B /* BaseVM.swift */,
+				5704061329A38EE5006E2A7B /* BaseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5704061B29A3A99A006E2A7B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5704061C29A3A9A9006E2A7B /* CardView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E05A81938BE250364DFDAC90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E271D2D8376B10162A107D /* Pods-Ticktok Downloader.debug.xcconfig */,
+				1C1B080E828D76DC451F9C0E /* Pods-Ticktok Downloader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570405E129A120B4006E2A7B /* Ticktok Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570405F629A120B7006E2A7B /* Build configuration list for PBXNativeTarget "Ticktok Downloader" */;
+			buildPhases = (
+				4ABB41F6A23471F1BCE48AB7 /* [CP] Check Pods Manifest.lock */,
+				570405DE29A120B4006E2A7B /* Sources */,
+				570405DF29A120B4006E2A7B /* Frameworks */,
+				570405E029A120B4006E2A7B /* Resources */,
+				F19CF23351615E0E61C61D2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ticktok Downloader";
+			productName = "Ticktok Downloader";
+			productReference = 570405E229A120B4006E2A7B /* Ticktok Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570405DA29A120B4006E2A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					570405E129A120B4006E2A7B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 570405DD29A120B4006E2A7B /* Build configuration list for PBXProject "Ticktok Downloader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 570405D929A120B4006E2A7B;
+			productRefGroup = 570405E329A120B4006E2A7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570405E129A120B4006E2A7B /* Ticktok Downloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570405E029A120B4006E2A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570405F229A120B7006E2A7B /* LaunchScreen.storyboard in Resources */,
+				570405EF29A120B7006E2A7B /* Assets.xcassets in Resources */,
+				570405ED29A120B4006E2A7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ABB41F6A23471F1BCE48AB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ticktok Downloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F19CF23351615E0E61C61D2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticktok Downloader/Pods-Ticktok Downloader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticktok Downloader/Pods-Ticktok Downloader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ticktok Downloader/Pods-Ticktok Downloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570405DE29A120B4006E2A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5704060929A38AF3006E2A7B /* ErrorModel.swift in Sources */,
+				57B805FD29AB8139001634EC /* DownloadHistoryVC.swift in Sources */,
+				5704061F29A3B411006E2A7B /* AlertManager.swift in Sources */,
+				5704060029A3899C006E2A7B /* TicktokDetailVC.swift in Sources */,
+				5704060F29A38E5A006E2A7B /* CommonModel.swift in Sources */,
+				570405FC29A38490006E2A7B /* Globels.swift in Sources */,
+				5704061229A38E92006E2A7B /* BaseVM.swift in Sources */,
+				5704060629A38A79006E2A7B /* AFManager.swift in Sources */,
+				570405EA29A120B4006E2A7B /* HomeVC.swift in Sources */,
+				5704061629A39336006E2A7B /* Enums.swift in Sources */,
+				5704061429A38EE5006E2A7B /* BaseVC.swift in Sources */,
+				570405FA29A120D7006E2A7B /* DownlodManager.swift in Sources */,
+				5704060D29A38E18006E2A7B /* TicktokDetailVM.swift in Sources */,
+				5704061A29A39E90006E2A7B /* Handlers.swift in Sources */,
+				570405E629A120B4006E2A7B /* AppDelegate.swift in Sources */,
+				5704060B29A38C6D006E2A7B /* TicktokDetailModel.swift in Sources */,
+				5704061D29A3A9A9006E2A7B /* CardView.swift in Sources */,
+				5704061829A39439006E2A7B /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		570405EB29A120B4006E2A7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570405EC29A120B4006E2A7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		570405F029A120B7006E2A7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570405F129A120B7006E2A7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570405F429A120B7006E2A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		570405F529A120B7006E2A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570405F729A120B7006E2A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E271D2D8376B10162A107D /* Pods-Ticktok Downloader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5834X6H4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ticktok Downloader/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiktok Downloader";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Download Files";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezync.TicktokDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		570405F829A120B7006E2A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1B080E828D76DC451F9C0E /* Pods-Ticktok Downloader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5834X6H4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ticktok Downloader/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiktok Downloader";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Download Files";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezync.TicktokDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570405DD29A120B4006E2A7B /* Build configuration list for PBXProject "Ticktok Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570405F429A120B7006E2A7B /* Debug */,
+				570405F529A120B7006E2A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570405F629A120B7006E2A7B /* Build configuration list for PBXNativeTarget "Ticktok Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570405F729A120B7006E2A7B /* Debug */,
+				570405F829A120B7006E2A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 570405DA29A120B4006E2A7B /* Project object */;
+}
